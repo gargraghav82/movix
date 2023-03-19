@@ -38,10 +38,10 @@ const HeroBanner = () => {
             <div className="heroBannerContent">
                 <span className="title" style={{cursor:'pointer'}}>wELCOME...</span>
                 <span className="subTitle" style={{cursor:'pointer'}}>
-                    <pre>
+                    <p>
                     MillionS oF MovieS | TV ShowS tO DiscoveR.
                                 Explore Now.
-                    </pre>
+                    </p>
                 </span>
                 <div className="searchInput">
                     <input
