@@ -41,7 +41,7 @@ const VideoSection = ({data , loading}) => {
                     <div key={video.id} className="videoItem" onClick={() => {setVideoId(video.key) ; setShow(true);}}>
                         <div className="videoThumbnail">
                             <Img
-                                src={imageExists(`http://img.youtube.com/vi/${video.key}/mqdefault.jpg`) ? 
+                                src={imageExists(`https://img.youtube.com/vi/${video.key}/mqdefault.jpg`) ? 
                                             `https://img.youtube.com/vi/${video.key}/mqdefault.jpg` 
                                             : NIA}
                             />
