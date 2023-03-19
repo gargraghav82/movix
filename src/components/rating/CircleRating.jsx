@@ -3,7 +3,7 @@ import './style.scss'
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-const Rating = ({rating}) => {
+const CircleRating = ({rating}) => {
   return (
     <div className="circleRating">
         <CircularProgressbar
@@ -20,4 +20,4 @@ const Rating = ({rating}) => {
   )
 }
 
-export default Rating
+export default CircleRating
