@@ -8,7 +8,7 @@ import './style.scss';
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 import Img from "../lazyLoadImage/Img";
 import PosterFallback from "../../assets/no-poster.png";
-import Rating from "../rating/rating";
+import CircleRating from "../rating/CircleRating";
 import Genres from "../genres/Genres";
 import NR from '../../assets/no-results.png'
 
@@ -63,7 +63,7 @@ const Carousel = ({data , loading , type}) => {
 
                                     <div className="posterBlock">
                                         <Img src={posterUrl}/>
-                                        <Rating
+                                        <CircleRating
                                             rating={item.vote_average.toFixed(1)}
                                         />
                                         <Genres data={item.genre_ids.slice(0 , 2)}/>
